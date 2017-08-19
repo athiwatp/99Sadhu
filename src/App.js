@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, Text, View } from 'react-native';
+import { AppRegistry, StyleSheet, Text, View, Button } from 'react-native';
+import Menu from './Menu';
 
 export default class App extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class App extends Component {
         <Text style={styles.welcome}>
           99Sadhu
         </Text>
+        <Menu />
       </View>
     );
   }
